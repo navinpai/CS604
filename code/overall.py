@@ -12,5 +12,6 @@ plt.plot(x,y,color='r')
 plt.plot(x,z,color='g')
 # beautify the x-labels
 #plt.gcf().autofmt_xdate()
-
 plt.show()
+
+plt.savefig('testplot.png')
